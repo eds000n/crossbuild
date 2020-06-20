@@ -41,6 +41,21 @@ RUN set -x; echo "Starting image build for Debian Stretch" \
         wget                                           \
         xz-utils                                       \
         cmake                                          \
+        make                                           \
+        build-essential                                \
+        zlib1g-dev                                     \
+        pkg-config                                     \
+        libglib2.0-dev                                 \
+        binutils-dev                                   \
+        libboost-all-dev                               \
+        autoconf                                       \
+        libtool                                        \
+        libssl-dev                                     \
+        libpixman-1-dev                                \
+        libpython-dev                                  \
+        python-pip                                     \
+        python-capstone                                \
+        virtualenv                                     \
         qemu-user-static                               \
         libxml2-dev                                    \
         lzma-dev                                       \
